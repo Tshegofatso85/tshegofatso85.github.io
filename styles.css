@@ -1,7 +1,6 @@
 
-black-background{
+.black-background{
     background-color: black;
-    color:black
 }
 .white-text{
     color:whitesmoke
@@ -10,4 +9,8 @@ black-background{
     font-family: Helvetica, sans-serif;
     font-style: oblique;  
     font-size: larger;                                           
+}
+.text-align{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
