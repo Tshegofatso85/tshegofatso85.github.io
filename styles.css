@@ -7,9 +7,12 @@
     font-family: Helvetica, sans-serif;  
     font-size: 100px;                                           
 }
-.text-aligner {
+.text-aligner-center{
     text-align: center;
 }
 .white-text{
     color:whitesmoke;
+}
+.text-aligner-left{
+    text-align: left;
 }
