@@ -3,14 +3,14 @@
     font-family: 'Arial Narrow', Arial, sans-serif;
 }
 h2{
-    font-size: 35px;
+    font-size: 50px;
 }
 
 
 .font {
     font-family: Helvetica, sans-serif;  
     font-size: 100px;
-    margin-bottom:30px                                           
+    margin-bottom:60px                                           
 }
 .text-aligner-center{
     text-align: center;
@@ -20,4 +20,7 @@ h2{
 }
 .text-aligner-left{
     text-align: left;
+}
+.text-aligner-right{
+    text-align: right;
 }
