@@ -1,14 +1,15 @@
 .black-background{
     background-color: black;
+    font-family: 'Arial Narrow', Arial, sans-serif;
 }
+
 .font {
     font-family: Helvetica, sans-serif;
     font-style: oblique;  
     font-size: 100px;                                           
 }
-body {
+.text-aligner {
     text-align: center;
-    font-family: 'Arial Narrow', Arial, sans-serif;
 }
 .white-text{
     color:whitesmoke;
