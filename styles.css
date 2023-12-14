@@ -3,7 +3,7 @@
     font-family: 'Arial Narrow', Arial, sans-serif;
 }
 .line-separate-solid {
-    border-top: 3px solid #5c5757;
+    border-top: 3px dashed #5c5757;
 }
 
 h2{
