@@ -1,16 +1,14 @@
-
-.black-background{
-    background-color: black;
-}
-.white-text{
-    color:whitesmoke
-}
 .font {
     font-family: Helvetica, sans-serif;
     font-style: oblique;  
     font-size:xx-large;                                           
 }
-.text-align{
+body {
+    background-color: black;
+    color:whitesmoke;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.white-text{
+    color:whitesmoke;
 }
