@@ -6,5 +6,7 @@ black-background{
     color:whitesmoke;
 }
 .font {
-    font-family: Helvetica, sans-serif;                                             
+    font-family: Helvetica, sans-serif;
+    font-style: oblique;  
+    font-size: larger;                                           
 }
