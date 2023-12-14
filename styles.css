@@ -1,9 +1,10 @@
 
 black-background{
     background-color: black;
+    color:black
 }
 .white-text{
-    color:whitesmoke;
+    color:whitesmoke
 }
 .font {
     font-family: Helvetica, sans-serif;
