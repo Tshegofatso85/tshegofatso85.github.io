@@ -1,6 +1,10 @@
-.black-background{
+
+black-background{
     background-color: black;
 }
 .white-text{
     color:whitesmoke;
+}
+.font {
+    font-family: 'Simple Brush Script'                                             
 }
