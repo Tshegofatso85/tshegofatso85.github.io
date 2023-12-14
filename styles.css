@@ -1,11 +1,12 @@
+.black-background{
+    background-color: black;
+}
 .font {
     font-family: Helvetica, sans-serif;
     font-style: oblique;  
-    font-size:xx-large;                                           
+    font-size: 100px;                                           
 }
 body {
-    background-color: black;
-    color:whitesmoke;
     text-align: center;
     font-family: 'Arial Narrow', Arial, sans-serif;
 }
