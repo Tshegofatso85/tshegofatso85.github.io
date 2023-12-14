@@ -2,10 +2,15 @@
     background-color: black;
     font-family: 'Arial Narrow', Arial, sans-serif;
 }
+h2{
+    font-size: 35px;
+}
+
 
 .font {
     font-family: Helvetica, sans-serif;  
-    font-size: 100px;                                           
+    font-size: 100px;
+    margin-bottom:30px                                           
 }
 .text-aligner-center{
     text-align: center;
