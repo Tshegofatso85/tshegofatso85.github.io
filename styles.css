@@ -5,20 +5,16 @@
 .main{
     background-color: black;
     height: 500px;
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    
 }
-.line-separate-solid {
-
-    border-top: 3px dashed #5c5757;
-}
-
 h2{
     font-size: 50px;
+    font-family: Pacifico, Helvetica, sans-serif;
 }
 
 
 .font {
-    font-family: Helvetica, sans-serif;  
+    font-family: Rubik Doodle Shadow, Helvetica, sans-serif;  
     font-size: 100px;
     margin-bottom:60px                                           
 }
