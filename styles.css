@@ -38,10 +38,7 @@ h2{
 .text-aligner-right{
     text-align: right;
 }
-.content{
-    position: absolute;
-    
-}
+
 .fa-python{
     font-size: 50px;
 }
@@ -50,4 +47,35 @@ h2{
 }
 .fa-linkedin{
     font-size: 50px;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-bottom: -50px;
+}
+.navbar{
+    width: 95%;
+    margin: 10px;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    font-size: 25px;
+}
+.nav-branding{
+    font-size: 40px;
+}
+.container{
+    width: 100%;
+}
+.black-text{
+    color: black;
 }
