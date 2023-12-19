@@ -16,12 +16,14 @@
 h2{
     font-size: 50px;
     font-family: "Pacifico", "Helvetica", "sans-serif";
+    color: brown;
 }
 
 
 .font {
     font-family: "Rubik Doodle Shadow", "Helvetica", "sans-serif";  
     font-size: 100px;
+    color: wheat;
     margin-bottom:60px                                           
 }
 .text-aligner-center{
@@ -39,4 +41,13 @@ h2{
 .content{
     position: absolute;
     
+}
+.fa-python{
+    font-size: 50px;
+}
+.fa-js{
+    font-size: 50px;
+}
+.fa-linkedin{
+    font-size: 50px;
 }
