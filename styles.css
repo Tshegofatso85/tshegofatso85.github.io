@@ -1,79 +1,126 @@
-.sections{
-    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='32' height='32' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 0%, 1)'/><path d='M40 16h-6m-4 0h-6m8 8v-6m0-4V8M8 16H2m-4 0h-6m8 8v-6m0-4V8'  stroke-linecap='square' stroke-width='0.5' stroke='hsla(258.5,59.4%,59.4%,1)' fill='none'/><path d='M16-8v6m0 4v6m8-8h-6m-4 0H8m8 24v6m0 4v6m8-8h-6m-4 0H8'  stroke-linecap='square' stroke-width='0.5' stroke='hsla(339.6,82.2%,51.6%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
-    
+.sections {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='32' height='32' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 0%, 1)'/><path d='M40 16h-6m-4 0h-6m8 8v-6m0-4V8M8 16H2m-4 0h-6m8 8v-6m0-4V8'  stroke-linecap='square' stroke-width='0.5' stroke='hsla(258.5,59.4%,59.4%,1)' fill='none'/><path d='M16-8v6m0 4v6m8-8h-6m-4 0H8m8 24v6m0 4v6m8-8h-6m-4 0H8'  stroke-linecap='square' stroke-width='0.5' stroke='hsla(339.6,82.2%,51.6%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  width: 100%;
 }
-.paragraphFont{
-    font-size: 25px;
+img {
+  width: 300px;
 }
-.yellow-text{
-    color:yellowgreen
+.paragraphFont {
+  font-size: 25px;
 }
-.main{
-    background-color: black;
-    height: 500px;
-    
+.yellow-text {
+  color: yellowgreen;
 }
-h2{
-    font-size: 50px;
-    font-family: "Pacifico", "Helvetica", "sans-serif";
-    color: brown;
+.main {
+  background-color: black;
+  height: 500px;
 }
-
+h2 {
+  font-size: 50px;
+  font-family: "Pacifico", "Helvetica", "sans-serif";
+  color: brown;
+}
 
 .font {
-    font-family: "Rubik Doodle Shadow", "Helvetica", "sans-serif";  
-    font-size: 100px;
-    color: wheat;
-    margin-bottom:60px                                           
+  font-family: "Rubik Doodle Shadow", "Helvetica", "sans-serif";
+  font-size: 100px;
+  color: wheat;
+  margin-bottom: 60px;
 }
-.text-aligner-center{
+
+.text-aligner-center {
+  text-align: center;
+}
+.white-text {
+  color: whitesmoke;
+}
+.text-aligner-left {
+  text-align: left;
+}
+.text-aligner-right {
+  text-align: right;
+}
+
+.fa-python {
+  font-size: 50px;
+}
+.fa-js {
+  font-size: 50px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: whitesmoke;
+}
+.navbar {
+  width: 95%;
+  margin: 10px;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  font-size: 25px;
+}
+.nav-branding {
+  font-size: 40px;
+}
+.container {
+  width: 100%;
+}
+.black-text {
+  color: black;
+}
+
+@media only screen and (max-width: 550px) {
+  h2 {
+    font-size: 25px; /* Adjust font size for smaller screens */
     text-align: center;
-}
-.white-text{
-    color:whitesmoke;
-}
-.text-aligner-left{
-    text-align: left;
-}
-.text-aligner-right{
-    text-align: right;
-}
-
-.fa-python{
-    font-size: 50px;
-}
-.fa-js{
-    font-size: 50px;
-}
-
-.header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: whitesmoke;
-    
-}
-.navbar{
-    width: 95%;
-    margin: 10px;
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 25px;
-    font-size: 25px;
-}
-.nav-branding{
+  }
+  .font {
     font-size: 40px;
-}
-.container{
+    text-align: center;
+  }
+  .paragraphFont {
+    font-size: 15px;
+  }
+  .navbar {
+    margin: -5px;
+  }
+  .nav-menu {
+    gap: 5px;
+    font-size: 15px;
+  }
+  .nav-branding {
+    font-size: 25px;
+  }
+  .container {
     width: 100%;
+    height: 100%;
+  }
+  img {
+    width: 300px;
+  }
 }
-.black-text{
-    color: black;
+@media only screen and (max-width: 375px) {
+  .nav-menu {
+    gap: 7px;
+    font-size: 10px;
+  }
+  .nav-branding {
+    font-size: 15px;
+  }
+  .container {
+    width: 100%;
+  }
+  img {
+    width: 200px;
+  }
 }
