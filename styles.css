@@ -73,9 +73,9 @@ h2 {
 .nav-branding {
   font-size: 40px;
 }
-.container {
+/* .container {
   width: 100%;
-}
+} */
 .black-text {
   color: black;
 }
@@ -91,7 +91,7 @@ h2 {
     text-align: center;
   }
   .font {
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
   }
   .paragraphFont {
@@ -107,22 +107,18 @@ h2 {
   .nav-branding {
     font-size: 25px;
   }
-  .container {
+  /* .container {
     width: 100%;
     height: 100%;
-  }
+  } */
   img {
     width: 300px;
   }
-  .grid-container {
+  /* .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(540px, 1fr));
-    gap: 20px;
-  }
-  img {
-    width: 200px;
-    align-items: center;
-  }
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    gap: 40px;
+  } */
 }
 @media only screen and (max-width: 375px) {
   .nav-menu {
@@ -138,5 +134,9 @@ h2 {
   img {
     width: 200px;
     align-items: center;
+  }
+  .font {
+    font-size: 40px;
+    text-align: center;
   }
 }
