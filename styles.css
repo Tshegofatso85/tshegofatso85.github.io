@@ -16,8 +16,8 @@
 nav {
   background-color: whitesmoke;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-  /* position: fixed;
-  width: 100%; */
+  position: fixed;
+  width: 100%;
 }
 nav ul {
   width: 95%;
@@ -46,6 +46,7 @@ nav :first-child {
 }
 .sidebar {
   padding: 0;
+
   position: fixed;
   top: 0;
   right: 0;
