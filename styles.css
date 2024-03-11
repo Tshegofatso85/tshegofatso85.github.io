@@ -81,6 +81,10 @@ img {
 }
 .paragraphFont {
   font-size: 25px;
+  padding: 5px;
+}
+.otherFont {
+  font-size: 25px;
 }
 .yellow-text {
   color: yellowgreen;
@@ -188,6 +192,9 @@ ul > li {
   .paragraphFont {
     font-size: 15px;
   }
+  .otherFont {
+    font-size: 15px;
+  }
   .navbar {
     margin: -5px;
   }
@@ -247,7 +254,8 @@ ul > li {
   }
   .paragraphFont {
     font-size: 15px;
-    text-align: left;
+    text-align: calc(flex-start);
+    padding: 20px;
   }
   .sidebar {
     width: 100%;
