@@ -6,6 +6,9 @@
   margin: 0;
   /* padding: 5px; */
 }
+.size {
+  font-size: 100px;
+}
 .body {
   min-height: 100vh;
   background-image: url("folder/240_F_274639050_ddLeyFuQGwEjtTP0e2Y9ZZesSo2Mj6JD.jpg");
@@ -27,7 +30,7 @@ nav ul {
   align-items: center;
 }
 nav li {
-  height: 50px;
+  height: 70px;
 }
 nav a {
   height: 100%;
@@ -113,10 +116,10 @@ h2 {
 }
 
 .fa-python {
-  font-size: 50px;
+  font-size: 25px;
 }
 .fa-js {
-  font-size: 50px;
+  font-size: 25px;
 }
 
 .header {
@@ -124,7 +127,7 @@ h2 {
   top: 0;
   width: 100%;
   background-color: whitesmoke;
-  /* }
+}
 .navbar {
   width: 95%;
   margin: 10px;
@@ -142,19 +145,28 @@ h2 {
 }
 .nav-branding {
   font-size: 40px;
-} */
+}
+*/
   /* .container {
   width: 100%;
 } */
   .black-text {
-    color: black;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-    gap: 20px;
-  }
+  color: black;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  gap: 20px;
+}
+.ul {
+  display: table;
+  width: 40%;
+  text-align: left;
+}
+ul > li {
+  display: table-cell;
+}
+
 @media (max-width: 850px) {
   .hideOnMobile {
     display: none;
@@ -207,7 +219,7 @@ h2 {
 }
 @media only screen and (max-width: 375px) {
   h2 {
-    font-size: 25px; /* Adjust font size for smaller screens */
+    font-size: 17px; /* Adjust font size for smaller screens */
     text-align: center;
   }
   .nav-menu {
