@@ -252,4 +252,12 @@ ul > li {
   .sidebar {
     width: 100%;
   }
+  .ul {
+    display: table;
+    width: 60%;
+    text-align: left;
+  }
+  ul > li {
+    display: table-cell;
+  }
 }
