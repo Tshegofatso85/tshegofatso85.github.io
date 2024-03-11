@@ -81,7 +81,7 @@ img {
 }
 .paragraphFont {
   font-size: 25px;
-  padding: 5px;
+  padding: auto;
 }
 .otherFont {
   font-size: 25px;
@@ -191,6 +191,7 @@ ul > li {
   }
   .paragraphFont {
     font-size: 15px;
+    padding: auto;
   }
   .otherFont {
     font-size: 15px;
@@ -254,8 +255,8 @@ ul > li {
   }
   .paragraphFont {
     font-size: 15px;
-    text-align: calc(flex-start);
-    padding: 20px;
+    text-align: center;
+    padding: auto;
   }
   .sidebar {
     width: 100%;
