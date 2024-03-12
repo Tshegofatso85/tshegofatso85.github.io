@@ -12,8 +12,8 @@
 .body {
   min-height: 100vh;
   background-image: url("folder/240_F_274639050_ddLeyFuQGwEjtTP0e2Y9ZZesSo2Mj6JD.jpg");
-  background-size: auto;
-  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }
 nav {
@@ -81,7 +81,7 @@ img {
   align-items: center;
 }
 .paragraphFont {
-  font-size: 25px;
+  font-size: 35px;
 }
 .otherFont {
   font-size: 25px;
@@ -164,11 +164,19 @@ h2 {
 }
 .ul {
   display: table;
-  width: 40%;
-  text-align: left;
+  width: 90%;
+  align-items: center;
 }
+
 ul > li {
   display: table-cell;
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 @media (max-width: 850px) {
@@ -216,7 +224,7 @@ ul > li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
   }
   /* .grid-container {
     display: grid;
@@ -261,8 +269,8 @@ ul > li {
   }
   .ul {
     display: table;
-    width: 60%;
-    text-align: left;
+    width: 80%;
+    text-align: center;
   }
   ul > li {
     display: table-cell;
