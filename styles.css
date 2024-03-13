@@ -82,6 +82,7 @@ img {
 }
 .paragraphFont {
   font-size: 35px;
+  padding: 0px 20px 0px 20px;
 }
 .otherFont {
   font-size: 25px;
@@ -199,9 +200,12 @@ ul > li {
   }
   .paragraphFont {
     font-size: 15px;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
   }
   .otherFont {
     font-size: 15px;
+    text-align: center;
   }
   .navbar {
     margin: -5px;
@@ -224,7 +228,20 @@ ul > li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 50%;
+  }
+  .ul {
+    /* display: table;
+    width: 83%;
+    text-align: center; */
+    display: table;
+    /* width: 78%; */
+    width: auto;
+    text-align: center;
+    padding-right: 40px;
+  }
+  ul > li {
+    display: table-cell;
   }
   /* .grid-container {
     display: grid;
@@ -269,8 +286,10 @@ ul > li {
   }
   .ul {
     display: table;
-    width: 80%;
+    /* width: 78%; */
+    width: auto;
     text-align: center;
+    padding-right: 40px;
   }
   ul > li {
     display: table-cell;
