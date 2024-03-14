@@ -23,7 +23,7 @@ nav {
   width: 100%;
 }
 nav ul {
-  width: 95%;
+  width: 92%;
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -34,7 +34,7 @@ nav li {
 }
 nav a {
   height: 100%;
-  padding: 0 30px;
+  padding: 0px 30px;
   text-decoration: none;
   display: flex;
   align-items: center;
