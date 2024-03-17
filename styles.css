@@ -56,7 +56,6 @@ nav :first-child {
 }
 .sidebar {
   padding: 0;
-
   position: fixed;
   top: 0;
   right: 0;
