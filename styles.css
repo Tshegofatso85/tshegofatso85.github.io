@@ -9,6 +9,9 @@
 .pad {
   padding-top: 100px;
 }
+.spacing {
+  padding-bottom: 40px;
+}
 .size {
   font-size: 100px;
 }
