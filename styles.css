@@ -6,6 +6,9 @@
   margin: 0;
   /* padding: 5px; */
 }
+.pad {
+  padding-top: 100px;
+}
 .size {
   font-size: 100px;
 }
