@@ -1,33 +1,30 @@
-/* .sections {
-  background-image: url("folder/240_F_418122150_BSLIV33qMrdJvM5dSr01vMky0EG0BTCC.jpg");
-  width: 100%;
-} */
 * {
   margin: 0;
-  /* padding: 5px; */
 }
+
 .pad {
   padding-top: 100px;
 }
+
 .spacing {
   padding-bottom: 40px;
 }
+
 .size {
   font-size: 100px;
 }
+
 .body {
-  min-height: 100vh;
-  background-image: url("folder/240_F_274639050_ddLeyFuQGwEjtTP0e2Y9ZZesSo2Mj6JD.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: rgba(150, 150, 150, 0.219);
 }
+
 nav {
   background-color: whitesmoke;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
 }
+
 nav ul {
   width: 92%;
   list-style: none;
@@ -35,9 +32,11 @@ nav ul {
   justify-content: flex-end;
   align-items: center;
 }
+
 nav li {
   height: 70px;
 }
+
 nav a {
   height: 100%;
   padding: 0px 25px;
@@ -51,9 +50,11 @@ nav a {
 nav a:hover {
   background-color: wheat;
 }
+
 nav :first-child {
   margin-right: auto;
 }
+
 .sidebar {
   padding: 0;
   position: fixed;
@@ -70,9 +71,11 @@ nav :first-child {
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .sidebar li {
   width: 100%;
 }
+
 .sidebar a {
   width: 100%;
 }
@@ -85,20 +88,25 @@ img {
   width: 200px;
   align-items: center;
 }
+
 .paragraphFont {
   font-size: 35px;
   padding: 0px 20px 0px 20px;
 }
+
 .otherFont {
   font-size: 25px;
 }
+
 .yellow-text {
   color: yellowgreen;
 }
+
 .main {
   background-color: black;
   height: 500px;
 }
+
 h2 {
   font-size: 50px;
   font-family: "Pacifico", "Helvetica", "sans-serif";
@@ -115,12 +123,15 @@ h2 {
 .text-aligner-center {
   text-align: center;
 }
+
 .white-text {
   color: whitesmoke;
 }
+
 .text-aligner-left {
   text-align: left;
 }
+
 .text-aligner-right {
   text-align: right;
 }
@@ -128,6 +139,7 @@ h2 {
 .fa-python {
   font-size: 25px;
 }
+
 .fa-js {
   font-size: 25px;
 }
@@ -138,6 +150,7 @@ h2 {
   width: 100%;
   background-color: whitesmoke;
 }
+
 .navbar {
   width: 95%;
   margin: 10px;
@@ -146,6 +159,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
 }
+
 .nav-menu {
   display: flex;
   justify-content: space-between;
@@ -153,21 +167,21 @@ h2 {
   gap: 25px;
   font-size: 25px;
 }
+
 .nav-branding {
   font-size: 40px;
 }
-*/
-  /* .container {
-  width: 100%;
-} */
-  .black-text {
+
+.black-text {
   color: black;
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   gap: 20px;
 }
+
 .ul {
   display: table;
   width: 90%;
@@ -178,6 +192,7 @@ ul > li {
   display: table-cell;
   text-align: center;
 }
+
 .center {
   display: block;
   margin-left: auto;
@@ -189,6 +204,7 @@ ul > li {
   .hideOnMobile {
     display: none;
   }
+
   .menu-button {
     display: block;
   }
@@ -199,103 +215,111 @@ ul > li {
     font-size: 35px; /* Adjust font size for smaller screens */
     text-align: center;
   }
+
   .font {
     font-size: 45px;
     text-align: center;
   }
+
   .paragraphFont {
     font-size: 15px;
     text-align: center;
     padding: 0px 20px 0px 20px;
   }
+
   .otherFont {
     font-size: 15px;
     text-align: center;
   }
+
   .navbar {
     margin: -5px;
   }
+
   .nav-menu {
     gap: 5px;
     font-size: 15px;
   }
+
   .nav-branding {
     font-size: 25px;
   }
-  /* .container {
-    width: 100%;
-    height: 100%;
-  } */
+
   img {
     width: 300px;
   }
+
   .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
   }
+
   .ul {
-    /* display: table;
-    width: 83%;
-    text-align: center; */
     display: table;
-    /* width: 78%; */
     width: auto;
     text-align: center;
     padding-right: 40px;
   }
+
   ul > li {
     display: table-cell;
   }
-  /* .grid-container {
+
+  .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     gap: 40px;
-  } */
+  }
 }
 @media only screen and (max-width: 375px) {
   h2 {
     font-size: 25px; /* Adjust font size for smaller screens */
     text-align: center;
   }
+
   .nav-menu {
     gap: 7px;
     font-size: 10px;
   }
+
   .nav-branding {
     font-size: 15px;
   }
-  /* .container {
-    width: 100%;
-  } */
+
   img {
     width: 200px;
   }
+
   .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
   }
+
   .font {
     font-size: 40px;
     text-align: center;
   }
+
   .paragraphFont {
     font-size: 15px;
     text-align: center;
   }
+
   .sidebar {
     width: 100%;
   }
+
   .ul {
     display: table;
-    /* width: 78%; */
     width: auto;
     text-align: center;
     padding-right: 40px;
   }
+
   ul > li {
     display: table-cell;
   }
